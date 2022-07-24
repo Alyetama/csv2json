@@ -42,15 +42,15 @@ options:
 ## 📕 Examples
 
 ```sh
+# Pass a file
 csv2json foo.csv
-```
 
-```sh
-# Orient as list 
+# Or a directory with CSV files
+csv2json foo/
+
+# Orient as a list 
 csv2json foo.csv -o list
-```
 
-```sh
-# Compressed output and use zero indentation (minified)
+# Compressed output and zero indentation (minified)
 csv2json foo.csv -c -i 0
 ```
